@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Samkelo Ngwane ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:100vh;overflow:hidden;display:flex;align-items:center;justify-content:center;font-family:'Poppins',sans-serif;background:#000}
+.bg-container{position:fixed;inset:0;z-index:0}
+.bg-slide{position:absolute;inset:0;background-size:cover;background-position:center top;opacity:0;transition:opacity 4s ease-in-out}
+.bg-slide.active{opacity:1;z-index:1}
+.bg-overlay{position:fixed;inset:0;z-index:2;background:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5))}
+.emoji-container{position:fixed;inset:0;z-index:4;pointer-events:none;overflow:hidden}
+.float-emoji{position:absolute;animation:floatUp linear infinite;opacity:0.9;filter:drop-shadow(0 2px 6px rgba(0,0,0,0.3))}
+@keyframes floatUp{
+  0%{transform:translateY(110vh) translateX(0) rotate(0deg) scale(0.8); opacity:0}
+  10%{opacity:1} 90%{opacity:1}
+  100%{transform:translateY(-10vh) translateX(40px) rotate(360deg) scale(1.3); opacity:0}
+}
+.card{position:relative;z-index:5;width:90%;max-width:400px;background:rgba(255,255,255,0.18);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,0.35);border-radius:30px;padding:32px 28px;text-align:center;box-shadow:0 20px 50px rgba(0,0,0,0.3)}
+.profile{width:115px;height:115px;margin:0 auto 14px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,0.8);display:block}
+h1{font-family:'Great Vibes',cursive;font-size:2.8rem;color:white;line-height:1;text-shadow:0 2px 15px rgba(0,0,0,0.6)}
+p{color:#fff;margin:14px 0 20px;font-weight:300;line-height:1.6;text-shadow:0 1px 8px rgba(0,0,0,0.5)}
+.btns{display:flex;justify-content:center;gap:12px;align-items:center;flex-wrap:wrap}
+button{border:none;border-radius:50px;padding:13px 28px;font-weight:600;cursor:pointer;transition:0.35s cubic-bezier(0.34,1.56,0.64,1)}
+#yesBtn{background:#e91e63;color:white;box-shadow:0 8px 20px rgba(233,30,99,0.5);z-index:6}
+#noBtn{background:rgba(255,255,255,0.9);color:#e91e63}
+#page2,#page3{display:none}
+.heart{font-size:2.8rem;animation:beat 1s infinite}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
+.forYouBtn{margin-top:10px;background:white;color:#e91e63;padding:12px 26px;border-radius:50px;font-weight:600;cursor:pointer;border:none}
+.backBtn{margin-top:12px;background:rgba(255,255,255,0.2);color:white;border:1px solid rgba(255,255,255,0.5);padding:10px 22px;border-radius:50px;font-weight:400;cursor:pointer}
+</style>
+</head>
+<body>
+
+<audio id="bgMusic" loop preload="auto">
+  <source src="Let me love u.mp3" type="audio/mpeg">
+</audio>
+
+<div class="emoji-container" id="emojiContainer"></div>
+
+<div class="bg-container">
+  <div class="bg-slide active" style="background-image:url('samkelo1.jpg')"></div>
+  <div class="bg-slide" style="background-image:url('samkelo2.jpg')"></div>
+  <div class="bg-slide" style="background-image:url('samkelo3.jpg')"></div>
+</div>
+<div class="bg-overlay"></div>
+
+<!-- PAGE 1 -->
+<div class="card" id="page1">
+  <img src="samkelo2.jpg" class="profile" alt="Samkelo Ngwane">
+  <h1>Samkelo Ngwane,<br>Will you be mine forever?</h1>
+  <p>My lovely birthday girl, will you make my wish come true? 🌷</p>
+  <div class="btns">
+    <button id="yesBtn">Yes 💖</button>
+    <button id="noBtn">No</button>
+  </div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="card" id="page2">
+  <div class="heart">❤️</div>
+  <h1>Thank you, Samkelo!</h1>
+  <p>Happy birthday to the girl who stole my heart and never gave it back.<br><br>You deserve all the happiness in the world on your special day, I hope this day brings you closer to all your dreams.</p>
+  <div class="btns">
+    <button class="forYouBtn" id="forYouBtn">For you babe ➜</button>
+  </div>
+  <button class="backBtn" id="backTo1">← Back</button>
+</div>
+
+<!-- PAGE 3 -->
+<div class="card" id="page3">
+  <div class="heart">💌</div>
+  <h1>Thembalami</h1>
+  <p>
+    
+    MaNgwane, ngyazi angeke ngibe umuntu wokuqala empilweni yakho kodwa ngifuna ukuba umuntu wokugcina oyoke umthande, futhi kube yimina kuphela okwenza uzizwe uthandwa. Bengicela uvele uzwele inhliziyo yami okungenani iyafisa ukuzikhulumela yona kepha ayikwazi ingakho wonke amathemba iwashiye kimina. Okunye engikucelayo ukuthi sisebenzise sona leskhathi sokuthi ukhulise uthando lwami enhlizweni yakho, ebese ngicela nakuwe MaNgwane ungaqinisi kakhulu isandla vumela inhliziyo yakho ishaye kanye neyami thembalami.<br><br>
+    I love you endlessly, my birthday queen. ❤️
+  </p>
+  <p style="font-family:'Great Vibes',cursive;font-size:1.9rem;margin-top:10px">Forever yours</p>
+  <div class="btns" style="margin-top:16px">
+    <button class="backBtn" id="backTo2">← Back</button>
+    <button class="backBtn" id="backToHome">Home 🏠</button>
+  </div>
+</div>
+
+<script>
+const emojis = ['🌸','🌷','🌹','💖','💐','🌺','💕','✨','🦋','🌼'];
+const container = document.getElementById('emojiContainer');
+function createEmoji(){
+  const el = document.createElement('div');
+  el.className='float-emoji';
+  el.textContent = emojis[Math.floor(Math.random()*emojis.length)];
+  el.style.left = Math.random()*100 + 'vw';
+  el.style.animationDuration = (6 + Math.random()*8) + 's';
+  el.style.fontSize = (16 + Math.random()*22) + 'px';
+  container.appendChild(el);
+  setTimeout(()=>el.remove(), 14000);
+}
+setInterval(createEmoji, 350);
+for(let i=0;i<12;i++) createEmoji();
+
+const slides=document.querySelectorAll('.bg-slide');
+let idx=0;
+setInterval(()=>{slides[idx].classList.remove('active');idx=(idx+1)%slides.length;slides[idx].classList.add('active');}, 6000);
+
+const yesBtn=document.getElementById('yesBtn');
+const noBtn=document.getElementById('noBtn');
+const music=document.getElementById('bgMusic');
+let count=0;
+const noTexts=["No 🥺","Sure, Samkelo?","Really sure??","My heart...","Think again baby","Last chance!"];
+noBtn.addEventListener('click',()=>{
+  count++;
+  noBtn.textContent=noTexts[Math.min(count,noTexts.length-1)];
+  yesBtn.style.transform=`scale(${1+count*0.55})`;
+  noBtn.style.transform=`scale(${Math.max(0.2,1-count*0.2)})`;
+  if(count>=5){noBtn.style.display='none';yesBtn.style.transform='scale(2.2)';yesBtn.textContent='SAY YES, SAMKELO! 😭💖'}
+});
+yesBtn.addEventListener('click',()=>{
+  music.volume=0.6; music.play().catch(()=>{});
+  page1.style.display='none'; page2.style.display='block'; page3.style.display='none';
+});
+forYouBtn.addEventListener('click',()=>{
+  page2.style.display='none'; page3.style.display='block';
+});
+// BACK BUTTONS
+document.getElementById('backTo1').addEventListener('click',()=>{
+  page2.style.display='none'; page1.style.display='block';
+});
+document.getElementById('backTo2').addEventListener('click',()=>{
+  page3.style.display='none'; page2.style.display='block';
+});
+document.getElementById('backToHome').addEventListener('click',()=>{
+  page3.style.display='none'; page1.style.display='block';
+});
+</script>
+</body>
+</html>
+
